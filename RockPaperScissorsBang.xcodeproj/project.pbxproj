@@ -12,6 +12,9 @@
 		5090E0241EE862A800313E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0221EE862A800313E64 /* Main.storyboard */; };
 		5090E0261EE862AA00313E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0251EE862AA00313E64 /* Assets.xcassets */; };
 		5090E0291EE862AB00313E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0271EE862AB00313E64 /* LaunchScreen.storyboard */; };
+		5090E0331EE8658E00313E64 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0301EE8658E00313E64 /* paper.png */; };
+		5090E0341EE8658E00313E64 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0311EE8658E00313E64 /* scissors.png */; };
+		5090E0351EE8658E00313E64 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5090E0321EE8658E00313E64 /* rock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5090E0251EE862AA00313E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5090E0281EE862AB00313E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5090E02A1EE862AD00313E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5090E0301EE8658E00313E64 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		5090E0311EE8658E00313E64 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		5090E0321EE8658E00313E64 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5090E0251EE862AA00313E64 /* Assets.xcassets */,
 				5090E0271EE862AB00313E64 /* LaunchScreen.storyboard */,
 				5090E02A1EE862AD00313E64 /* Info.plist */,
+				5090E0301EE8658E00313E64 /* paper.png */,
+				5090E0311EE8658E00313E64 /* scissors.png */,
+				5090E0321EE8658E00313E64 /* rock.png */,
 			);
 			path = "Rock Paper Scissors Bang";
 			sourceTree = "<group>";
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5090E0331EE8658E00313E64 /* paper.png in Resources */,
 				5090E0291EE862AB00313E64 /* LaunchScreen.storyboard in Resources */,
+				5090E0351EE8658E00313E64 /* rock.png in Resources */,
 				5090E0261EE862AA00313E64 /* Assets.xcassets in Resources */,
+				5090E0341EE8658E00313E64 /* scissors.png in Resources */,
 				5090E0241EE862A800313E64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
